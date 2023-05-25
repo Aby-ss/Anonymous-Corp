@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-family: 'Prompt', sans-serif;
   color: white;
-  background: #659dbd;
+  background: #1a1a1d;
   overflow-x: hidden;
 }
 
@@ -61,7 +61,7 @@ section {
 }
 
 .banner-section {
-  background-color: #bc986a;
+  background-color: #4e4e50;
   height: 200px;
   width: 350vw; /* Set the width to 100% of the viewport width */
   margin-top: -10px; /* Adjust the negative margin to increase the top size */
@@ -71,7 +71,7 @@ section {
 }
 
 .small-banner-section {
-  background-color: #daad86;
+  background-color: #6f2232;
   height: 100px;
   width: 350vw; /* Set the width to 100% of the viewport width */
   margin-top: 200px; /* Adjust the negative margin to increase the top size */
@@ -81,8 +81,8 @@ section {
   justify-content: center; /* Center the content horizontally */
 }
 
-.green-banner-section {
-  background-color: #8d8741;
+.pink-banner-section {
+  background-color: #c3073f;
   height: 150px;
   width: 350vw; /* Set the width to 100% of the viewport width */
   margin-top: 20px; /* Adjust the negative margin to increase the top size */
@@ -109,7 +109,7 @@ section {
 }
 
 .box_ {
-  background-color: #daad86;
+  background-color: #6f2232;
   width: 35%; /* Adjust the width as needed */
   padding: 20px;
   border-radius: 10px; /* Add border-radius to create rounded corners */
@@ -120,5 +120,5 @@ section {
   width: 150px;
   height: 50px;
   font-size: 18px;
-  background-color: #1c2e4a;
+  background-color: #950740;
 }
