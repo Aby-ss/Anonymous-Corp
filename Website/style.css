@@ -96,3 +96,22 @@ section {
     background-color: #1c2e4a;
 }
 
+.section_ {
+  display: flex;
+  justify-content: center; /* Center the boxes horizontally */
+  align-items: center; /* Center the boxes vertically */
+  margin-top: -250px;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center the boxes horizontally within the container */
+}
+
+.box_ {
+  background-color: #daad86;
+  width: 35%; /* Adjust the width as needed */
+  padding: 20px;
+  border-radius: 10px; /* Add border-radius to create rounded corners */
+  margin: 35px; /* Adjust the margin to control the spacing */
+}
