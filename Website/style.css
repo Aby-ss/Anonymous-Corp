@@ -115,3 +115,10 @@ section {
   border-radius: 10px; /* Add border-radius to create rounded corners */
   margin: 35px; /* Adjust the margin to control the spacing */
 }
+
+.larger-button {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #1c2e4a;
+}
