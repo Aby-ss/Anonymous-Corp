@@ -1,7 +1,12 @@
 body {
-    transform: scale(0.65);
-    transform-origin: top left;
-    width: 153.846%; /* (1 / 0.75) = 133.33% to maintain original content size */
+  transform: scale(0.65);
+  transform-origin: top left;
+  width: 153.846%; /* (1 / 0.75) = 133.33% to maintain original content size */
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+  background: #659dbd;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -10,21 +15,15 @@ h1 {
     max-width: 800px; /* Limit the maximum width of the heading */
     margin: 0 auto; /* Center the heading horizontally */
     max-width: 100%;
-  }
-p {
-    font-size: 1.5rem;
-    text-align: left; /* Center align the paragraphs */
-    max-width: 1200px; /* Limit the maximum width of the paragraphs */
-    margin: 0 auto; /* Center the paragraphs horizontally */
 }
 
-body {
-    margin: 0;
-    font-family: 'Prompt', sans-serif;
-    color: white;
-    background: #659dbd;
-    overflow-x: hidden;
+p {
+  font-size: 1.5rem;
+  text-align: left; /* Center align the paragraphs */
+  max-width: 1200px; /* Limit the maximum width of the paragraphs */
+  margin: 0 auto; /* Center the paragraphs horizontally */
 }
+
 
 section {
     position: relative;
@@ -84,7 +83,7 @@ section {
 
 .green-banner-section {
   background-color: #8d8741;
-  height: 15px;
+  height: 150px;
   width: 350vw; /* Set the width to 100% of the viewport width */
   margin-top: 20px; /* Adjust the negative margin to increase the top size */
   margin-bottom: 20px;
