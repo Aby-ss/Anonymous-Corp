@@ -24,6 +24,14 @@ p {
   margin: 0 auto; /* Center the paragraphs horizontally */
 }
 
+.larger-image {
+  width: 85%;
+  height: 350px;
+}
+
+.image-bottom {
+  margin-bottom: 550px;
+}
 
 section {
     position: relative;
@@ -109,7 +117,7 @@ section {
 }
 
 .box_ {
-  background-color: #6f2232;
+  background-color: #971a33;
   width: 35%; /* Adjust the width as needed */
   padding: 20px;
   border-radius: 10px; /* Add border-radius to create rounded corners */
