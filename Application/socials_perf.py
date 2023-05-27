@@ -19,3 +19,23 @@ from rich.progress import Progress
 
 from rich.traceback import install
 install(show_locals=True)
+
+# Instagram API credentials
+access_token = "YOUR_ACCESS_TOKEN"
+instagram_business_account_id = "YOUR_BUSINESS_ACCOUNT_ID"
+
+# Function to get Instagram account metrics
+def get_instagram_metrics():
+    endpoint = f"https://graph.facebook.com/v13.0/{instagram_business_account_id}?fields=followers_count,media_count&access_token={access_token}"
+    response = requests.get(endpoint)
+    data = response.json()
+    followers = data.get("followers_count")
+    posts = data.get("media_count")
+    return followers, posts
+
+# Get Instagram account metrics
+followers, posts = get_instagram_metrics()
+
+# Print metrics
+panel = f"[bold]Instagram Account Metrics[/bold]\n\nFollowers: {followers}\nPosts: {posts}"
+print(panel)
